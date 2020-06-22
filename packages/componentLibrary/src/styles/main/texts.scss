@@ -1,0 +1,63 @@
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: .7em;
+    color: $color-font;
+}
+
+
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    /* Override bootstrap style and color */
+    color: #1890ff!important;
+}
+
+a:hover {
+    /* Override bootstrap style */
+    text-decoration: underline;
+}
+
+/* MEDIA: Small screens */
+@media (max-width: 350px), (max-height: 700px) {
+
+    .text-label-small {
+        /* Smaller font to fit long text into statement label */
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+}
+
+/* MEDIA: Big Screens (Tablets) */
+@media (min-width: 768px) and (min-height: 768px) {
+
+    .text-label-small {
+        /* Smaller font to fit long text into statement label */
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 32px;
+        line-height: 46px;
+        margin-bottom: 40px;
+    }
+
+}
+
+/* MEDIA: Huge screens (Desktops) */
+@media (min-width: 1000px) and (min-height: 1000px) {
+
+    .text-label-small {
+        /* Smaller font to fit long text into statement label */
+        font-size: 24px;
+    }
+
+}

@@ -1,0 +1,63 @@
+{
+  "name": "@realgreen/ama",
+  "description": "automation mailing mangement ",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@realgreen/componentlibrary": "1.0.0",
+    "react": "16.13.1",
+    "axios": "^0.19.2",
+    "react-dom": "16.13.1",
+    "react-router-dom": "^5.2.0",
+    "i18next": "^19.4.5",
+    "i18next-xhr-backend": "^3.2.2",
+    "i18next-browser-languagedetector": "^4.3.1",
+    "react-i18next": "^11.6.0",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/redux-saga": "^0.10.5",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "prettier": "^2.0.5",
+    "react-redux": "^7.2.0",
+    "reselect": "4.0.0",
+    "redux-devtools-extension": "2.13.8",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test:dev": "react-scripts test",
+    "test": "npm run test:dev -- --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "lint:fix": "eslint src/**/*.{ts,tsx} --fix",
+    "lint": "eslint src/**/*.{ts,tsx}"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

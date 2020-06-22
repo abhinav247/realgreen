@@ -1,0 +1,39 @@
+{
+  "name": "@realgreen/componentlibrary",
+  "version": "1.0.0",
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "types": "./lib/types.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "tsc --watch",
+    "storybook":"start-storybook -p 6006",
+    "cleanbuild": "rm -r node_modules && npm install && tsc"
+  },
+  "peerDependencies": {
+    "react": "^16",
+    "react-dom": "^16"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.3.19",
+    "@types/storybook__react": "^5.2.1",
+    "@types/jest": "26.0.0",
+    "@types/node": "14.0.13",
+    "@types/react": "16.9.38",
+    "@types/react-dom": "16.9.8",
+    "devextreme": "20.1.4",
+    "devextreme-react": "20.1.4",
+    "sass-loader": "8.0.2",
+    "sass": "^1.26.8",
+    "style-loader": "^1.2.1",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "glob-loader": "^0.3.0",
+    "ts-loader": "^7.0.5",
+    "tslib": "2.0.0",
+    "typescript": "3.9.5"
+  }
+}

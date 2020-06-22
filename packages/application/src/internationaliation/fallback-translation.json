@@ -1,0 +1,28 @@
+{
+    "en": {
+        "translations": {
+            "settings": {
+                "StartingDate": "Start Service",
+                "Days": "Skip Days",
+                "StartTime": "Blackout Time Starts",
+                "EndTime": "Blackout Time Stops",
+                "ZeroDelay": "Zero Day Delay"
+            },
+            "save": "saveasdsadasdasd",
+            "cancel": "cancel"
+        }
+    },
+    "es": {
+        "translations": {
+            "settings": {
+                "StartingDate": "Start Service",
+                "Days": "Skip Days",
+                "StartTime": "Blackout Time Starts",
+                "EndTime": "Blackout Time Stops",
+                "ZeroDelay": "Zero Day Delay"
+            },
+            "save": "saveasdsadasdasd",
+            "cancel": "cancel"
+        }
+    }
+}

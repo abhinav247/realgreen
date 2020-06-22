@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+/* Theme Colors */
+.theme-text-primary {
+    /* Used for in-text icons color */
+    color: $color-primary;
+}
+
+.theme-text-white {
+    /* Force text to be white in some contexts */
+    color: #fff;
+
+    & h1, & h2, & h3, & h4, & h5 {
+        /* Recolor nested headers */
+        color: #fff;
+    }
+}
+
+.theme-bg-primary {
+    /* This color may be replaced by theming */
+    /* Used in action button colors (GET STARTED!), starting screen background */
+    background-color: $color-primary;
+}
+
+.theme-bg-secondary {
+    /* This color may be replaced by theming */
+    /* Used in answer button colors, modal popups background */
+    background-color: $color-secondary;
+}
+
+.theme-bg-text {
+    /* Text color */
+    background-color: $color-bg-gray;
+}
+
+.theme-bg-header {
+    /* App header color, info-screens background (Language, Settings, Tips) */
+    background-color: $color-bg-white;
+}
+
+.theme-bg-content {
+    /* Main container background color during questions - a bit darker */
+    background-color: $color-bg-gray;
+}

@@ -1,0 +1,50 @@
+/* Imports */
+
+@import '~devextreme/dist/css/dx.common.css';
+@import '~devextreme/dist/css/dx.light.css';
+
+@import './variables.scss';
+@import './main/fonts/index.scss';
+@import './layouts/index.scss';
+@import './main/texts.scss';
+@import './main/themes/index.scss';
+@import '../components/widgets/button/button.scss';
+@import '../components/widgets/tagBox/tagbox.scss';
+
+
+
+html {
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli';
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $color-bg-gray;
+
+    & h1 {
+        font-family: 'Muli';
+    }
+}
+
+#root {
+    
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #f1f5f8;
+
+   
+    position: fixed;
+}
+
+
